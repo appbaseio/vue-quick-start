@@ -26,24 +26,24 @@
   dependencies:
     cross-fetch "^3.0.4"
 
-"@appbaseio/reactivecore@10.0.0-alpha.0":
-  version "10.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@appbaseio/reactivecore/-/reactivecore-10.0.0-alpha.0.tgz#544875539dc13d6c9c7b0cfefd10d33b96303319"
-  integrity sha512-8z+mxQi5l2yiQlzdVACu1wUBQzZEYu8gx9gWFFlnxyLC6wcL+T7ruGS0sj2ZU9mM7jnSCh2Rp/b1OxnF5r8hwA==
+"@appbaseio/reactivecore@10.0.0-alpha.1":
+  version "10.0.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/@appbaseio/reactivecore/-/reactivecore-10.0.0-alpha.1.tgz#5f2601ecb25632cc39f02e5a6abd93b6f8beebf5"
+  integrity sha512-KomLFtFBq4SGdXz7nt4rWWWzAuY5JVd2WfuUP0B4bLJSZ+9OdpN9SjO/mSrVtiXfUI3AegQ6DYMl3uOYUrg2pw==
   dependencies:
     cross-fetch "^3.0.4"
+    dayjs "^1.11.7"
     prop-types "^15.6.0"
     redux "^4.0.0"
     redux-thunk "^2.3.0"
-    xdate "^0.8.2"
 
-"@appbaseio/reactivesearch-vue@^3.0.0-alpha.0":
-  version "3.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@appbaseio/reactivesearch-vue/-/reactivesearch-vue-3.0.0-alpha.0.tgz#7a54e34d737981c232de51f3c56e896db58a21ae"
-  integrity sha512-x5M/YS2VbrbBb/mxH5TreXd9n+iVESiD3ScCMjOe6S8MmP25kXl8qkYWqPC6MB4lI6X3z6r7ZG8G6g7yVFfbRQ==
+"@appbaseio/reactivesearch-vue@^3.0.0-alpha.2":
+  version "3.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@appbaseio/reactivesearch-vue/-/reactivesearch-vue-3.0.0-alpha.2.tgz#e65300aac4a0f0d426d9f315f7421fe604bbe7a1"
+  integrity sha512-8eV1egXUus2Y8jKROnlaNXVItH3NuqLfwU742gux/qB45lU2TMRThwf2FyBzEXDVrpLJ4zuNQ5VK4iezG8jP9Q==
   dependencies:
     "@appbaseio/analytics" "^1.1.1"
-    "@appbaseio/reactivecore" "10.0.0-alpha.0"
+    "@appbaseio/reactivecore" "10.0.0-alpha.1"
     "@appbaseio/vue-emotion" "0.6.0-alpha.6"
     "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0"
     appbase-js "^5.2.0"
@@ -2876,6 +2876,11 @@ csstype@^3.0.2:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.1.tgz#841b532c45c758ee546a11d5bd7b7b473c8c30b9"
   integrity sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==
+
+dayjs@^1.11.7:
+  version "1.11.7"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.7.tgz#4b296922642f70999544d1144a2c25730fce63e2"
+  integrity sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==
 
 debug@2.6.9:
   version "2.6.9"
@@ -6551,11 +6556,6 @@ ws@^8.4.2:
   version "8.12.0"
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.12.0.tgz#485074cc392689da78e1828a9ff23585e06cddd8"
   integrity sha512-kU62emKIdKVeEIOIKVegvqpXMSTAMLJozpHZaJNDYqBjzlSYXQGviYwN1osDLJ9av68qHd4a2oSjd7yD4pacig==
-
-xdate@^0.8.2:
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/xdate/-/xdate-0.8.2.tgz#d7b033c00485d02695baf0044f4eacda3fc961a3"
-  integrity sha512-sNBlLfOC8S3V0vLDEUianQOXcTsc9j4lfeKU/klHe0RjHAYn0CXsSttumTot8dzalboV8gZbH38B+WcCIBjhFQ==
 
 xtend@~2.1.1:
   version "2.1.2"
