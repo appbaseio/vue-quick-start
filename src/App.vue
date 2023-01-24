@@ -44,6 +44,27 @@
         ]"
         title="Book Ratings"
       />
+      <reactive-list
+        componentId="SearchResult"
+        dataField="original_title.keyword"
+        :pagination="true"
+        :from="0"
+        :size="5"
+        :react="{ and: ['Ratings', 'Authors', 'SearchBox'] }"
+        >
+        <template #renderItem="{ item }">
+          <div key="item._id">
+            <img
+              :src="item.image"
+              alt="Book Cover"
+            />
+            <div>{{ item.original_title }}</div>
+            <div>by {{ item.authors }}</div>               
+            <div>({{ item.average_rating }} avg)</div>                    
+            <div>Pub {{ item.original_publication_year }}</div>
+          </div>
+        </template>
+      </reactive-list>
 		</reactive-base>
 	</div>
 </template>
@@ -53,7 +74,8 @@ import {
   ReactiveBase, 
   SearchBox, 
   MultiList, 
-  SingleRange
+  SingleRange,
+  ReactiveList,
 } from '@appbaseio/reactivesearch-vue';
 
 export default {
@@ -62,7 +84,8 @@ export default {
     ReactiveBase,
     SearchBox,
     MultiList,
-    SingleRange
+    SingleRange,
+    ReactiveList
   }
 }
 </script>
